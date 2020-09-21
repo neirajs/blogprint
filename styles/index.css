@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,400;0,600;1,400;1,600&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap");
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Write you own custom component styles here */
+.main-header {
+  @apply text-center mb-10 px-5;
+}
+
+.main-header > h1 {
+  @apply text-5xl font-bold;
+}
+
+.main-header > p {
+  @apply text-xl font-medium;
+}
+
+@screen sm {
+  .main-header {
+    @apply mb-20;
+  }
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white font-bold py-2 px-4 rounded;
+}
