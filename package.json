@@ -36,9 +36,6 @@
     }
   },
   "lint-staged": {
-    "*.{ts,tsx}": [
-      "tsc --jsx preserve"
-    ],
     "*.{js,ts,tsx}": [
       "eslint --fix"
     ]
