@@ -11,6 +11,10 @@ module.exports = {
       react: {
         version: 'detect'
       }
+    },
+    rules: {
+      'react/react-in-jsx-scope': 'off',
+      'react/no-unescaped-entities': 'off'
     }
   };
   
